@@ -2,7 +2,7 @@
   "headers": {
     "/*": {
       "X-Author": "pogudins",
-      "Control-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": "*"
     }
   }
 }
