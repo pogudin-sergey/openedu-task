@@ -1,7 +1,8 @@
 {
   "headers": {
     "/*": {
-      "X-Author": "pogudins"
+      "X-Author": "pogudins",
+      "Control-Allow-Origin": "*"
     }
   }
 }
