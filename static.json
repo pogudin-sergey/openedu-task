@@ -2,9 +2,9 @@
   "headers": {
     "/*": {
       "X-Author": "pogudins",
-      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Origin": "*"
     },
-    "/login/*": {
+    "/login/index.html": {
       "Content-Type": "text/plain; charset=UTF-8"
     }
   }
