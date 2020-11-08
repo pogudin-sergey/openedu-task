@@ -7,6 +7,6 @@
   },
   "routes": {
     "/login/**": "/login/index.txt",
-    "/sample/**": "/sample/index.txt",
+    "/sample/**": "/sample/index.txt"
   }
 }
