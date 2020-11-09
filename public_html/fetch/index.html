@@ -9,13 +9,13 @@
     <script>
         const inp = document.querySelector("#inp");
         document.querySelector("#bt").addEventListener("click", async e => {
-            const value = inp.nodeValue;
+            const value = inp.value;
             console.log(value);
 
             let response = await fetch(value);
             if (response.ok) {
                 const html = await response.text();
-                inp.nodeValue = html;
+                inp.value = html;
             } else {
                 console.error("Error" + response.status);
             }
