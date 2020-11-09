@@ -1,8 +1,8 @@
 function task(x) {
   return new Promise((resolve, reject) => {
     if (x < 18)
-      resolve();
+      resolve('yes');
     else
-      reject();
+      reject('no');
   });
 }
