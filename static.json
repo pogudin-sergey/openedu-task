@@ -3,6 +3,9 @@
     "/**": {
       "X-Author": "pogudins",
       "Access-Control-Allow-Origin": "*"
+    },
+    "/promise/**": {
+      "Content-Type": "text/plain; charset=UTF-8"
     }
   },
   "routes": {
