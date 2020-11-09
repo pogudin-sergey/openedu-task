@@ -3,14 +3,11 @@
     "/**": {
       "X-Author": "pogudins",
       "Access-Control-Allow-Origin": "*"
-    },
-    "/promise/**": {
-      "Content-Type": "text/plain; charset=UTF-8"
     }
   },
   "routes": {
     "/login/**": "/login/index.txt",
     "/sample/**": "/sample/index.txt",
-    "/promise/**": "/promise/index.js"
+    "/promise/**": "/promise/index.txt"
   }
 }
